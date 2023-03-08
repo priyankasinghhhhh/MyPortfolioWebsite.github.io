@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sidebar{
+    background-color:rgb(245, 218, 235);
+    width: 300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    padding: 20px;
+    
+}
+.sidebar nav{
+    padding: 40px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color:azure;
+    width: 85vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+}
+.about{
+    background-color:rgb(155, 182, 191);
+    height: 75vw;
+    width: 78vw;
+    margin: 50px auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    padding: 20px;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.devpic{
+    width: 400px;
+    margin-right: 57px;
+}
+
+.hello{
+    font-size: 45px;
+    font-weight:500;
+}
+.mystack{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.moreinfo{
+    font size: 25px;
+    padding: 30px;
+}
+
+.buttons button{
+    padding: 12px 15px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(109, 158, 237);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10 30px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: whitesmoke;
+    color: brown;
+}
+
+.devpic img{
+    width: 30vw;
+    
+}
+/* contact page */
+.contactform{  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding: 0 40px;
+
+}
+.contactform h1{  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(136, 25, 239);
+    text-align: center;
+
+}
+.contactform form div{
+    padding: 100 50px;
+    margin: 15px;
+    display: flex;
+        flex-direction: column;
+    
+}
+.contactform form div input{
+    font-size: 16px;
+    width: 24vw;
+    border-radius: 4px;
+    margin: 6px 0;
+    padding: 2px;
+}
+#form-check{
+    flex-direction: row;
+    font-size: 18px;
+}
+#form-check input{
+    width: 4vh;
+    margin: 4px 5px;
+    
+
+}
+.contactform form button.btn-primary{
+    padding: 8px 10px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(241, 237, 237);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: #463522;
+    margin: 0 4px;
+}
+
+/* about me page */
+.devintro h2{
+    font-family: Times New Roman, Times, 'serif;
+    padding: 4px;
+}
+.devintro p{
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    padding: 3px;
+}
+.devintro h3{
+    padding: 3px;
+}
+.skillcontainer{
+    padding: 5px;
+    margin: 11 13px;
+}
+@media (max-width: 700px) {
+    /* *{
+        background-color: rgb(65, 235, 215);
+    } */
+    .sidebar{
+        transform: translate(-500px, 0px);
+        position: absolute;
+    }
+}
